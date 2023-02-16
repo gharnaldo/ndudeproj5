@@ -1,14 +1,12 @@
-# Project: Data Pipelines
+# Project: Data Pipelines with Airflow
 
 ## Project Description
 
-This Project will allow Sparkify Startup analyze the data they've been collecting on songs and user activity on their new music streaming app. They will be able to move their processes and data onto the cloud. Their data resides in S3, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
+This Project will allow Sparkify Startup improve the automation and monitoring to their data warehouse ETL pipelines by adding Apache Airflow as tool for achieve this goal.
 
+The source data resides in S3 and needs to be processed in Sparkify's data warehouse in Amazon Redshift. The source datasets consist of JSON logs that tell about user activity in the application and JSON metadata about the songs the users listen to.
 
+![DAG!](/image-dag.png)
 
-## Files in repository
-
-1. **dag.py** Dag.
-2. **sql_statements.py** contains the queries used by dag.py.
 
 
